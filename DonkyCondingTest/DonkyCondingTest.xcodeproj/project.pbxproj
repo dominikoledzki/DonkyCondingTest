@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		589F6C7A5849E65C9945A411 /* Pods_DonkyCondingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192F2C87B40C34A235FDCF4D /* Pods_DonkyCondingTest.framework */; };
+		6A59184FE9F56105BE16B3BC /* Pods_DonkyCondingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EE639ED8D0D72AD67F730D /* Pods_DonkyCondingTestTests.framework */; };
+		7FDB53E01DEBA7730015E466 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB53DF1DEBA7730015E466 /* Services.swift */; };
+		7FDB53E11DEBA7730015E466 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB53DF1DEBA7730015E466 /* Services.swift */; };
+		7FF16CF31DEB678000E4B7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16CF21DEB678000E4B7CE /* AppDelegate.swift */; };
+		7FF16D081DEB678000E4B7CE /* DonkyCondingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D071DEB678000E4B7CE /* DonkyCondingTestTests.swift */; };
+		7FF16D151DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */; };
+		7FF16D161DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */; };
+		7FF16D1A1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */; };
+		7FF16D1B1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */; };
+		7FF16D1C1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */; };
+		7FF16D1D1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */; };
+		7FF16D1F1DEB70D800E4B7CE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D1E1DEB70D800E4B7CE /* Router.swift */; };
+		7FF16D201DEB70D800E4B7CE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D1E1DEB70D800E4B7CE /* Router.swift */; };
+		7FF16D231DEB73AD00E4B7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */; };
+		7FF16D241DEB73AD00E4B7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */; };
+		7FF16D271DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D261DEB741F00E4B7CE /* LaunchScreen.storyboard */; };
+		7FF16D281DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D261DEB741F00E4B7CE /* LaunchScreen.storyboard */; };
+		7FF16D2A1DEB745800E4B7CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D291DEB745800E4B7CE /* Localizable.strings */; };
+		7FF16D2B1DEB745800E4B7CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D291DEB745800E4B7CE /* Localizable.strings */; };
+		7FF16D301DEB74CB00E4B7CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */; };
+		7FF16D311DEB74CB00E4B7CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */; };
+		7FF16D341DEB7A3600E4B7CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D331DEB7A3600E4B7CE /* Model.swift */; };
+		7FF16D351DEB7A3600E4B7CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D331DEB7A3600E4B7CE /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FF16D041DEB678000E4B7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF16CE71DEB678000E4B7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF16CEE1DEB678000E4B7CE;
+			remoteInfo = DonkyCondingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2D6988D3922A358376E726 /* Pods-DonkyCondingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkyCondingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonkyCondingTest/Pods-DonkyCondingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		192F2C87B40C34A235FDCF4D /* Pods_DonkyCondingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonkyCondingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EE639ED8D0D72AD67F730D /* Pods_DonkyCondingTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonkyCondingTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDB53DF1DEBA7730015E466 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7FF16CEF1DEB678000E4B7CE /* DonkyCondingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonkyCondingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF16CF21DEB678000E4B7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FF16CFE1DEB678000E4B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF16D031DEB678000E4B7CE /* DonkyCondingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonkyCondingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF16D071DEB678000E4B7CE /* DonkyCondingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkyCondingTestTests.swift; sourceTree = "<group>"; };
+		7FF16D091DEB678000E4B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
+		7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		7FF16D1E1DEB70D800E4B7CE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FF16D261DEB741F00E4B7CE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FF16D291DEB745800E4B7CE /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FF16D331DEB7A3600E4B7CE /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8169D747C1C984A3A5266990 /* Pods-DonkyCondingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkyCondingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonkyCondingTest/Pods-DonkyCondingTest.release.xcconfig"; sourceTree = "<group>"; };
+		90B0308642829F20615E1F9F /* Pods-DonkyCondingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkyCondingTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonkyCondingTestTests/Pods-DonkyCondingTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7CE4137CF67E9F24C784B78 /* Pods-DonkyCondingTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkyCondingTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonkyCondingTestTests/Pods-DonkyCondingTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF16CEC1DEB678000E4B7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589F6C7A5849E65C9945A411 /* Pods_DonkyCondingTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF16D001DEB678000E4B7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A59184FE9F56105BE16B3BC /* Pods_DonkyCondingTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741690208FDF9AE3D0D17E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				192F2C87B40C34A235FDCF4D /* Pods_DonkyCondingTest.framework */,
+				20EE639ED8D0D72AD67F730D /* Pods_DonkyCondingTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FDB53DE1DEBA7690015E466 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB53DF1DEBA7730015E466 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7FF16CE61DEB678000E4B7CE = {
+			isa = PBXGroup;
+			children = (
+				7FF16CF11DEB678000E4B7CE /* DonkyCondingTest */,
+				7FF16D061DEB678000E4B7CE /* DonkyCondingTestTests */,
+				7FF16CF01DEB678000E4B7CE /* Products */,
+				DAA7D8ADEDAD344868FD4B9E /* Pods */,
+				741690208FDF9AE3D0D17E05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF16CF01DEB678000E4B7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16CEF1DEB678000E4B7CE /* DonkyCondingTest.app */,
+				7FF16D031DEB678000E4B7CE /* DonkyCondingTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF16CF11DEB678000E4B7CE /* DonkyCondingTest */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB53DE1DEBA7690015E466 /* Services */,
+				7FF16D321DEB7A2800E4B7CE /* Model */,
+				7FF16D211DEB73AD00E4B7CE /* Resources */,
+				7FF16CFE1DEB678000E4B7CE /* Info.plist */,
+				7FF16CF21DEB678000E4B7CE /* AppDelegate.swift */,
+				7FF16D121DEB6A7A00E4B7CE /* Utilites */,
+				7FF16D131DEB6A7A00E4B7CE /* ViewControllers */,
+				7FF16D171DEB6D3E00E4B7CE /* Views */,
+				7FF16D1E1DEB70D800E4B7CE /* Router.swift */,
+			);
+			path = DonkyCondingTest;
+			sourceTree = "<group>";
+		};
+		7FF16D061DEB678000E4B7CE /* DonkyCondingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D071DEB678000E4B7CE /* DonkyCondingTestTests.swift */,
+				7FF16D091DEB678000E4B7CE /* Info.plist */,
+			);
+			path = DonkyCondingTestTests;
+			sourceTree = "<group>";
+		};
+		7FF16D121DEB6A7A00E4B7CE /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		7FF16D131DEB6A7A00E4B7CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7FF16D171DEB6D3E00E4B7CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */,
+				7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FF16D211DEB73AD00E4B7CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */,
+				7FF16D261DEB741F00E4B7CE /* LaunchScreen.storyboard */,
+				7FF16D291DEB745800E4B7CE /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7FF16D321DEB7A2800E4B7CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FF16D331DEB7A3600E4B7CE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAA7D8ADEDAD344868FD4B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C2D6988D3922A358376E726 /* Pods-DonkyCondingTest.debug.xcconfig */,
+				8169D747C1C984A3A5266990 /* Pods-DonkyCondingTest.release.xcconfig */,
+				D7CE4137CF67E9F24C784B78 /* Pods-DonkyCondingTestTests.debug.xcconfig */,
+				90B0308642829F20615E1F9F /* Pods-DonkyCondingTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF16CEE1DEB678000E4B7CE /* DonkyCondingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF16D0C1DEB678000E4B7CE /* Build configuration list for PBXNativeTarget "DonkyCondingTest" */;
+			buildPhases = (
+				1E29477B755AFD3F5032AADF /* [CP] Check Pods Manifest.lock */,
+				7FF16CEB1DEB678000E4B7CE /* Sources */,
+				7FF16CEC1DEB678000E4B7CE /* Frameworks */,
+				7FF16CED1DEB678000E4B7CE /* Resources */,
+				5F1D4DAFD7E7602DADCE819C /* [CP] Embed Pods Frameworks */,
+				92AF624F6208BDEAD6C43E35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonkyCondingTest;
+			productName = DonkyCondingTest;
+			productReference = 7FF16CEF1DEB678000E4B7CE /* DonkyCondingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FF16D021DEB678000E4B7CE /* DonkyCondingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF16D0F1DEB678000E4B7CE /* Build configuration list for PBXNativeTarget "DonkyCondingTestTests" */;
+			buildPhases = (
+				1D6CAE6BF5313A3679641F25 /* [CP] Check Pods Manifest.lock */,
+				7FF16CFF1DEB678000E4B7CE /* Sources */,
+				7FF16D001DEB678000E4B7CE /* Frameworks */,
+				7FF16D011DEB678000E4B7CE /* Resources */,
+				653A059AB46DDB2D9B5082C2 /* [CP] Embed Pods Frameworks */,
+				03C149BE9605E37BDC26B2E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF16D051DEB678000E4B7CE /* PBXTargetDependency */,
+			);
+			name = DonkyCondingTestTests;
+			productName = DonkyCondingTestTests;
+			productReference = 7FF16D031DEB678000E4B7CE /* DonkyCondingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF16CE71DEB678000E4B7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dominik Oledzki";
+				TargetAttributes = {
+					7FF16CEE1DEB678000E4B7CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7FF16D021DEB678000E4B7CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FF16CEE1DEB678000E4B7CE;
+					};
+				};
+			};
+			buildConfigurationList = 7FF16CEA1DEB678000E4B7CE /* Build configuration list for PBXProject "DonkyCondingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF16CE61DEB678000E4B7CE;
+			productRefGroup = 7FF16CF01DEB678000E4B7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF16CEE1DEB678000E4B7CE /* DonkyCondingTest */,
+				7FF16D021DEB678000E4B7CE /* DonkyCondingTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF16CED1DEB678000E4B7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF16D271DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */,
+				7FF16D2A1DEB745800E4B7CE /* Localizable.strings in Resources */,
+				7FF16D231DEB73AD00E4B7CE /* Assets.xcassets in Resources */,
+				7FF16D1C1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF16D011DEB678000E4B7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF16D281DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */,
+				7FF16D2B1DEB745800E4B7CE /* Localizable.strings in Resources */,
+				7FF16D241DEB73AD00E4B7CE /* Assets.xcassets in Resources */,
+				7FF16D1D1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C149BE9605E37BDC26B2E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkyCondingTestTests/Pods-DonkyCondingTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D6CAE6BF5313A3679641F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E29477B755AFD3F5032AADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1D4DAFD7E7602DADCE819C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkyCondingTest/Pods-DonkyCondingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653A059AB46DDB2D9B5082C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkyCondingTestTests/Pods-DonkyCondingTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AF624F6208BDEAD6C43E35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkyCondingTest/Pods-DonkyCondingTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF16CEB1DEB678000E4B7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF16D301DEB74CB00E4B7CE /* Extensions.swift in Sources */,
+				7FF16D1F1DEB70D800E4B7CE /* Router.swift in Sources */,
+				7FF16CF31DEB678000E4B7CE /* AppDelegate.swift in Sources */,
+				7FDB53E01DEBA7730015E466 /* Services.swift in Sources */,
+				7FF16D341DEB7A3600E4B7CE /* Model.swift in Sources */,
+				7FF16D151DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */,
+				7FF16D1A1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF16CFF1DEB678000E4B7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF16D311DEB74CB00E4B7CE /* Extensions.swift in Sources */,
+				7FF16D201DEB70D800E4B7CE /* Router.swift in Sources */,
+				7FF16D081DEB678000E4B7CE /* DonkyCondingTestTests.swift in Sources */,
+				7FDB53E11DEBA7730015E466 /* Services.swift in Sources */,
+				7FF16D351DEB7A3600E4B7CE /* Model.swift in Sources */,
+				7FF16D161DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */,
+				7FF16D1B1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FF16D051DEB678000E4B7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF16CEE1DEB678000E4B7CE /* DonkyCondingTest */;
+			targetProxy = 7FF16D041DEB678000E4B7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FF16D0A1DEB678000E4B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF16D0B1DEB678000E4B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF16D0D1DEB678000E4B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2D6988D3922A358376E726 /* Pods-DonkyCondingTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonkyCondingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7FF16D0E1DEB678000E4B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8169D747C1C984A3A5266990 /* Pods-DonkyCondingTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonkyCondingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7FF16D101DEB678000E4B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CE4137CF67E9F24C784B78 /* Pods-DonkyCondingTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonkyCondingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonkyCondingTest.app/DonkyCondingTest";
+			};
+			name = Debug;
+		};
+		7FF16D111DEB678000E4B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B0308642829F20615E1F9F /* Pods-DonkyCondingTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonkyCondingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonkyCondingTest.app/DonkyCondingTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF16CEA1DEB678000E4B7CE /* Build configuration list for PBXProject "DonkyCondingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF16D0A1DEB678000E4B7CE /* Debug */,
+				7FF16D0B1DEB678000E4B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF16D0C1DEB678000E4B7CE /* Build configuration list for PBXNativeTarget "DonkyCondingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF16D0D1DEB678000E4B7CE /* Debug */,
+				7FF16D0E1DEB678000E4B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF16D0F1DEB678000E4B7CE /* Build configuration list for PBXNativeTarget "DonkyCondingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF16D101DEB678000E4B7CE /* Debug */,
+				7FF16D111DEB678000E4B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF16CE71DEB678000E4B7CE /* Project object */;
+}
