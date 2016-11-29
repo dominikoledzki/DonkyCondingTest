@@ -14,27 +14,37 @@ extension String {
     }
 }
 
-protocol JSONDecodable {
-    associatedtype SubType
-    init?(jsonObject: Any)
-    static func decodeArray(jsonObject: Any) -> Array<SubType>?
+extension UIApplication {
+    var appName: String {
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as! String
+    }
+    
+    var appVersion: String {
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+    }
+    
+    var bundleVersion: String {
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
+    }
 }
 
-extension JSONDecodable {
-    static func decodeArray(jsonObject: Any) -> Array<Self>? {
-        guard let jsonArray = jsonObject as? Array<Any> else {
-            return nil
+extension UIViewController {
+    var isVisible: Bool {
+        return isViewLoaded && view.window != nil
+    }
+}
+
+extension ISO8601DateFormatter {
+    static let shared = ISO8601DateFormatter()
+}
+
+extension UILabel {
+    @objc var localizedText: String? {
+        set {
+            text = localizedText?.localized
         }
-        
-        var objects = Array<Self>()
-        for obj in jsonArray {
-            guard let element = Self(jsonObject: obj) else {
-                return nil
-            }
-            
-            objects.append(element)
+        get {
+            return text
         }
-        
-        return objects
     }
 }

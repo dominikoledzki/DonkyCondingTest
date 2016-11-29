@@ -12,12 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var model: Model!
+    var services: Services!
     var router: Router!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        model = MockModel()
-        router = Router(model: model)
+        
+        
+        model = Model()
+        services = Services()
+        router = Router(model: model, services: services)
         
         router.prepareTheApp()
         

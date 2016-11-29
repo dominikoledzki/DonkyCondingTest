@@ -6,4 +6,13 @@
   Copyright © 2016 Dominik Oledzki. All rights reserved.
 */
 
+"general.networkError" = "Error occurred, please check your network connectivity.";
+
 "repos.title" = "Donky repositories";
+"commits.title" = "Commits";
+"releases.title" = "Releases";
+
+"details.title" = "Details";
+"details.name" = "Name:";
+"details.language" = "Language:";
+"details.url" = "URL:";

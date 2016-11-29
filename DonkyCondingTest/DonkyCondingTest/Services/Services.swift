@@ -8,41 +8,49 @@
 
 import Foundation
 import URITemplate
+import RealmSwift
 
 class Services {
-    typealias FetchCompletionHandler = (Error?) -> Void
     let errorDomain = "ServicesErrorDomain"
     enum ErrorCode: Int {
         case InvalidResponse = 1
         case ResponseUnsuccessful
         case NoData
+        case InvalidJSON
     }
     
     private let urlSession: URLSession
-    private unowned let model: Model
-    
     private let organisation = "Donky-Network"
     private let reposApiTemplate = URITemplate(template: "https://api.github.com/orgs/{org}/repos")
     
-    init(model: Model) {
-        self.model = model
+    init() {
+        let appName = UIApplication.shared.appName
+        let appVersion = UIApplication.shared.appVersion
+        let bundleVersion = UIApplication.shared.bundleVersion
         
-        let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as! String
-        let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
-        let bundleVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
         let userAgent = appName + " " + appVersion + "b" + bundleVersion
         let configuration = URLSessionConfiguration.default
+        configuration.urlCache = nil
         configuration.httpAdditionalHeaders = [
             "User-Agent": userAgent
         ]
         
-        urlSession = URLSession(configuration: configuration)
+        urlSession = URLSession(configuration: configuration, delegate: nil, delegateQueue: OperationQueue.main)
     }
     
-    func fetchRepos(completionHandler: FetchCompletionHandler?) {
+    func fetchRepos(completionHandler: @escaping (Array<Repo>?, Error?) -> Void) {
         let url = URL(string: reposApiTemplate.expand(["org": organisation]))!
         let request = URLRequest(url: url)
-        
+        fetchArray(request: request, constructor: { Repo(value: $0) }, completionHandler: completionHandler)
+    }
+    
+    func fetchCommits(for repo: Repo, completionHandler: @escaping (Array<Commit>?, Error?) -> Void) {
+        let url = repo.commitsUrl
+        let request = URLRequest(url: url)
+        fetchArray(request: request, constructor: Commit.constructor, completionHandler: completionHandler)
+    }
+    
+    private func fetchArray<T: Object>(request: URLRequest, constructor: @escaping (Any) -> T, completionHandler: @escaping (Array<T>?, Error?) -> Void) {
         urlSession.dataTask(with: request, completionHandler: {
             (data, response, error) -> Void in
             
@@ -61,12 +69,16 @@ class Services {
                 }
                 
                 let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
-                let repos = Repo.decodeArray(jsonObject: jsonObject)
+                guard let objectsArray = jsonObject as? Array<Any> else {
+                    throw NSError(domain: self.errorDomain, code: ErrorCode.InvalidJSON.rawValue, userInfo: nil)
+                }
+                
+                let objects = objectsArray.map { constructor($0) }
+                completionHandler(objects, nil)
                 
             } catch {
-                completionHandler?(error)
+                completionHandler(nil, error)
             }
         }).resume()
     }
-    
 }

@@ -10,17 +10,27 @@
 		589F6C7A5849E65C9945A411 /* Pods_DonkyCondingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192F2C87B40C34A235FDCF4D /* Pods_DonkyCondingTest.framework */; };
 		6A59184FE9F56105BE16B3BC /* Pods_DonkyCondingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EE639ED8D0D72AD67F730D /* Pods_DonkyCondingTestTests.framework */; };
 		7FDB53E01DEBA7730015E466 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB53DF1DEBA7730015E466 /* Services.swift */; };
-		7FDB53E11DEBA7730015E466 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB53DF1DEBA7730015E466 /* Services.swift */; };
+		7FE2B4AB1DEC9CB200A8128F /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4A91DEC9CB200A8128F /* RepoViewController.swift */; };
+		7FE2B4B11DECB4FA00A8128F /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4AF1DECB4FA00A8128F /* SegmentedViewController.swift */; };
+		7FE2B4B31DECB4FA00A8128F /* SegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2B4B01DECB4FA00A8128F /* SegmentedViewController.xib */; };
+		7FE2B4B41DECB4FA00A8128F /* SegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2B4B01DECB4FA00A8128F /* SegmentedViewController.xib */; };
+		7FE2B4B61DECBAAC00A8128F /* CommitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4B51DECBAAC00A8128F /* CommitsTableViewController.swift */; };
+		7FE2B4B91DECBAB600A8128F /* ReleasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4B81DECBAB600A8128F /* ReleasesTableViewController.swift */; };
+		7FE2B4BF1DECE20200A8128F /* CommitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4BD1DECE20200A8128F /* CommitTableViewCell.swift */; };
+		7FE2B4C11DECE20200A8128F /* CommitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2B4BE1DECE20200A8128F /* CommitTableViewCell.xib */; };
+		7FE2B4C21DECE20200A8128F /* CommitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2B4BE1DECE20200A8128F /* CommitTableViewCell.xib */; };
+		7FE2B4C41DECFA6C00A8128F /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2B4C31DECFA6C00A8128F /* ActivityIndicatorView.swift */; };
+		7FE776571DED03B90061319E /* ErrorTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE776561DED03B90061319E /* ErrorTableViewHeader.swift */; };
+		7FE776591DED03C60061319E /* ErrorTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE776581DED03C60061319E /* ErrorTableViewHeader.xib */; };
+		7FE7765C1DED084C0061319E /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7765A1DED084C0061319E /* RepoDetailsViewController.swift */; };
+		7FE7765D1DED084C0061319E /* RepoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7765B1DED084C0061319E /* RepoDetailsViewController.xib */; };
 		7FF16CF31DEB678000E4B7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16CF21DEB678000E4B7CE /* AppDelegate.swift */; };
 		7FF16D081DEB678000E4B7CE /* DonkyCondingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D071DEB678000E4B7CE /* DonkyCondingTestTests.swift */; };
 		7FF16D151DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */; };
-		7FF16D161DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */; };
 		7FF16D1A1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */; };
-		7FF16D1B1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */; };
 		7FF16D1C1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */; };
 		7FF16D1D1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */; };
 		7FF16D1F1DEB70D800E4B7CE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D1E1DEB70D800E4B7CE /* Router.swift */; };
-		7FF16D201DEB70D800E4B7CE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D1E1DEB70D800E4B7CE /* Router.swift */; };
 		7FF16D231DEB73AD00E4B7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */; };
 		7FF16D241DEB73AD00E4B7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D221DEB73AD00E4B7CE /* Assets.xcassets */; };
 		7FF16D271DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D261DEB741F00E4B7CE /* LaunchScreen.storyboard */; };
@@ -28,9 +38,7 @@
 		7FF16D2A1DEB745800E4B7CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D291DEB745800E4B7CE /* Localizable.strings */; };
 		7FF16D2B1DEB745800E4B7CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF16D291DEB745800E4B7CE /* Localizable.strings */; };
 		7FF16D301DEB74CB00E4B7CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */; };
-		7FF16D311DEB74CB00E4B7CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D2F1DEB74CB00E4B7CE /* Extensions.swift */; };
 		7FF16D341DEB7A3600E4B7CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D331DEB7A3600E4B7CE /* Model.swift */; };
-		7FF16D351DEB7A3600E4B7CE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF16D331DEB7A3600E4B7CE /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		192F2C87B40C34A235FDCF4D /* Pods_DonkyCondingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonkyCondingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EE639ED8D0D72AD67F730D /* Pods_DonkyCondingTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonkyCondingTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDB53DF1DEBA7730015E466 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7FE2B4A91DEC9CB200A8128F /* RepoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoViewController.swift; sourceTree = "<group>"; };
+		7FE2B4AF1DECB4FA00A8128F /* SegmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		7FE2B4B01DECB4FA00A8128F /* SegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedViewController.xib; sourceTree = "<group>"; };
+		7FE2B4B51DECBAAC00A8128F /* CommitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsTableViewController.swift; sourceTree = "<group>"; };
+		7FE2B4B81DECBAB600A8128F /* ReleasesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleasesTableViewController.swift; sourceTree = "<group>"; };
+		7FE2B4BD1DECE20200A8128F /* CommitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitTableViewCell.swift; sourceTree = "<group>"; };
+		7FE2B4BE1DECE20200A8128F /* CommitTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommitTableViewCell.xib; sourceTree = "<group>"; };
+		7FE2B4C31DECFA6C00A8128F /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		7FE776561DED03B90061319E /* ErrorTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTableViewHeader.swift; sourceTree = "<group>"; };
+		7FE776581DED03C60061319E /* ErrorTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorTableViewHeader.xib; sourceTree = "<group>"; };
+		7FE7765A1DED084C0061319E /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		7FE7765B1DED084C0061319E /* RepoDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoDetailsViewController.xib; sourceTree = "<group>"; };
 		7FF16CEF1DEB678000E4B7CE /* DonkyCondingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonkyCondingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF16CF21DEB678000E4B7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF16CFE1DEB678000E4B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +182,13 @@
 			isa = PBXGroup;
 			children = (
 				7FF16D141DEB6ADA00E4B7CE /* ReposTableViewController.swift */,
+				7FE2B4A91DEC9CB200A8128F /* RepoViewController.swift */,
+				7FE2B4AF1DECB4FA00A8128F /* SegmentedViewController.swift */,
+				7FE2B4B01DECB4FA00A8128F /* SegmentedViewController.xib */,
+				7FE2B4B51DECBAAC00A8128F /* CommitsTableViewController.swift */,
+				7FE2B4B81DECBAB600A8128F /* ReleasesTableViewController.swift */,
+				7FE7765A1DED084C0061319E /* RepoDetailsViewController.swift */,
+				7FE7765B1DED084C0061319E /* RepoDetailsViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +198,11 @@
 			children = (
 				7FF16D181DEB6D5800E4B7CE /* RepoTableViewCell.swift */,
 				7FF16D191DEB6D5800E4B7CE /* RepoTableViewCell.xib */,
+				7FE2B4BD1DECE20200A8128F /* CommitTableViewCell.swift */,
+				7FE2B4BE1DECE20200A8128F /* CommitTableViewCell.xib */,
+				7FE2B4C31DECFA6C00A8128F /* ActivityIndicatorView.swift */,
+				7FE776561DED03B90061319E /* ErrorTableViewHeader.swift */,
+				7FE776581DED03C60061319E /* ErrorTableViewHeader.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,9 +325,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE776591DED03C60061319E /* ErrorTableViewHeader.xib in Resources */,
+				7FE7765D1DED084C0061319E /* RepoDetailsViewController.xib in Resources */,
+				7FE2B4C11DECE20200A8128F /* CommitTableViewCell.xib in Resources */,
 				7FF16D271DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */,
 				7FF16D2A1DEB745800E4B7CE /* Localizable.strings in Resources */,
 				7FF16D231DEB73AD00E4B7CE /* Assets.xcassets in Resources */,
+				7FE2B4B31DECB4FA00A8128F /* SegmentedViewController.xib in Resources */,
 				7FF16D1C1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,9 +340,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE2B4C21DECE20200A8128F /* CommitTableViewCell.xib in Resources */,
 				7FF16D281DEB741F00E4B7CE /* LaunchScreen.storyboard in Resources */,
 				7FF16D2B1DEB745800E4B7CE /* Localizable.strings in Resources */,
 				7FF16D241DEB73AD00E4B7CE /* Assets.xcassets in Resources */,
+				7FE2B4B41DECB4FA00A8128F /* SegmentedViewController.xib in Resources */,
 				7FF16D1D1DEB6D5800E4B7CE /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,12 +449,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE2B4B61DECBAAC00A8128F /* CommitsTableViewController.swift in Sources */,
+				7FE2B4AB1DEC9CB200A8128F /* RepoViewController.swift in Sources */,
+				7FE2B4B91DECBAB600A8128F /* ReleasesTableViewController.swift in Sources */,
+				7FE776571DED03B90061319E /* ErrorTableViewHeader.swift in Sources */,
 				7FF16D301DEB74CB00E4B7CE /* Extensions.swift in Sources */,
+				7FE2B4BF1DECE20200A8128F /* CommitTableViewCell.swift in Sources */,
 				7FF16D1F1DEB70D800E4B7CE /* Router.swift in Sources */,
+				7FE2B4B11DECB4FA00A8128F /* SegmentedViewController.swift in Sources */,
 				7FF16CF31DEB678000E4B7CE /* AppDelegate.swift in Sources */,
 				7FDB53E01DEBA7730015E466 /* Services.swift in Sources */,
+				7FE7765C1DED084C0061319E /* RepoDetailsViewController.swift in Sources */,
 				7FF16D341DEB7A3600E4B7CE /* Model.swift in Sources */,
 				7FF16D151DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */,
+				7FE2B4C41DECFA6C00A8128F /* ActivityIndicatorView.swift in Sources */,
 				7FF16D1A1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,13 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF16D311DEB74CB00E4B7CE /* Extensions.swift in Sources */,
-				7FF16D201DEB70D800E4B7CE /* Router.swift in Sources */,
 				7FF16D081DEB678000E4B7CE /* DonkyCondingTestTests.swift in Sources */,
-				7FDB53E11DEBA7730015E466 /* Services.swift in Sources */,
-				7FF16D351DEB7A3600E4B7CE /* Model.swift in Sources */,
-				7FF16D161DEB6ADB00E4B7CE /* ReposTableViewController.swift in Sources */,
-				7FF16D1B1DEB6D5800E4B7CE /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,7 +611,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7CE4137CF67E9F24C784B78 /* Pods-DonkyCondingTestTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DonkyCondingTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTestTests;
@@ -585,7 +624,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90B0308642829F20615E1F9F /* Pods-DonkyCondingTestTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DonkyCondingTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DonkyCondingTestTests;

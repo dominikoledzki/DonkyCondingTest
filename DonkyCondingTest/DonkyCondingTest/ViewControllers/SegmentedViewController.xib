@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentedViewController" customModule="DonkyCondingTest" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="lyG-3v-0IW" id="BHB-9R-Mv6"/>
+                <outlet property="segmentedControl" destination="bTJ-3N-WDv" id="RkM-CF-kKA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yMu-PO-zuh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bTJ-3N-WDv">
+                            <rect key="frame" x="127" y="8" width="121" height="29"/>
+                            <segments>
+                                <segment title="First"/>
+                                <segment title="Second"/>
+                            </segments>
+                            <connections>
+                                <action selector="onTabChange:" destination="-1" eventType="valueChanged" id="GT5-mD-M9j"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="bTJ-3N-WDv" firstAttribute="centerX" secondItem="yMu-PO-zuh" secondAttribute="centerX" id="bkf-vF-MI7"/>
+                        <constraint firstAttribute="bottom" secondItem="bTJ-3N-WDv" secondAttribute="bottom" constant="8" id="kYF-fX-fM0"/>
+                        <constraint firstItem="bTJ-3N-WDv" firstAttribute="top" secondItem="yMu-PO-zuh" secondAttribute="top" constant="8" id="uIh-Ld-Abf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyG-3v-0IW">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lyG-3v-0IW" secondAttribute="bottom" id="atD-oI-Krc"/>
+                <constraint firstItem="yMu-PO-zuh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b7I-aa-0p5"/>
+                <constraint firstItem="lyG-3v-0IW" firstAttribute="top" secondItem="yMu-PO-zuh" secondAttribute="bottom" id="bpA-6Q-RiE"/>
+                <constraint firstItem="lyG-3v-0IW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cVW-7I-cZW"/>
+                <constraint firstItem="yMu-PO-zuh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="q69-w8-dNI"/>
+                <constraint firstAttribute="trailing" secondItem="yMu-PO-zuh" secondAttribute="trailing" id="qRm-u8-CdJ"/>
+                <constraint firstAttribute="trailing" secondItem="lyG-3v-0IW" secondAttribute="trailing" id="ubN-7S-Ehe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+</document>
